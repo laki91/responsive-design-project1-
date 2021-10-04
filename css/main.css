@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/**************Global********************/
+
+/***************************************/
+
+body {
+    width: 100%;
+    font-family: 'Open Sans','Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;   
+    background-color: #fff;
+    color: #333;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/**************Helpers******************/
+
+/***************************************/
+
+/**************Layput*******************/
+
+/***************************************/
+
+/* Styling Navigation */
+.navbar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-brand {
+    text-transform: uppercase;
+    font-size: 17px !important;
+    margin-top: 5px;
+    color: #9acd32;
+}
+
+.navbar .navbar-toggler {
+    padding: 5px 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.navbar .navbar-toggler span {
+    width: 20px;
+    height: 20px;
+}
+
+/*Styling Header */
+
+.main-header {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: centar;
+    padding-bottom: 70px;
+}
+
+.main-header .header-content {
+    text-align: center;
+    padding: 50px 30px 0;
+}
+
+.main-header .header-content h1 {
+    line-height: 1.1;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main-header .header-content p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+    line-height: 1.5;
+}
+
+button.btn {
+    margin: 0 auto;
+    background-color: #9acd32;
+    border: 1px solid #9acd32;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    color: #9acd32;
+    background-color: #fff;
+    border: 1px solid #9acd32;
+}
+
+/* Styling Intro Section */
+
+.intro {
+    padding: 70px 0;
+    background-color: #9acd32;
+    text-align: center;
+}
+
+.intro .section-heading {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+    line-height: 1.1;
+}
+
+.intro .text-light {
+    color: rgba(255,255,255,.7) !important;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Styling Content Section */
+
+.content {
+    padding: 100px 0;
+}
+
+.content .img-circle {
+    border-radius: 50%;
+}
+
+.content .section-header {
+    font-size: 30px;
+}
+
+.content .lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+/* Styling Content-2 Section */
+
+.content-2 {
+    background-color: #222;
+    color: #fff;
+}
+
+.content-2 .text-light {
+    color: rgba(255,255,255,.7) !important;
+}
+
+.content .btn-content-2 {
+    background-color: #fff;
+    color: #000;
+    margin-left: 0;
+}
+
+/* Styling Promotion Section */
+
+.promotion .container-fluid {
+    padding: 0;
+}
+
+.promotion .container-fluid article {
+    cursor: pointer;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.promotion a {
+    text-shadow: 0px 0px 40px #000;
+}
+
+.promotion .promo-item {
+    height: 200px;
+    line-height: 180px;
+    text-align: center;
+}
+
+.promotion .promo-item:hover {
+    border: 10px solid rgba(255,255,255,.3);
+}
+
+.promotion .promo-item h3 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #9acd32;
+}
+
+
+
+.promotion .item-1 {
+    background-image: url(../images/writing.jpg);
+}
+
+.promotion .item-2 {
+    background-image: url(../images/concert.jpg);
+}
+
+.promotion .item-3 {
+    background-image: url(../images/pencil_sharpener.jpg);
+   
+}
+
+.promotion .item-1,
+.promotion .item-2,
+.promotion .item-3 {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* Styling Content-3 Section */
+
+.content-3 {
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+.content-3 .section-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-3 .section-header svg {
+    margin: 0 auto;
+}
+
+/* Styling Footer Section */
+
+.main-footer {
+    text-align: center;
+}
+
+.main-footer .contact {
+    background-color: #9acd32;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.main-footer .contact .section-heading {
+    font-size: 30px;
+}
+
+.main-footer p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main-footer p svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.main-footer .info {
+    padding: 50px 0 40px;
+}
+
+.main-footer .info p {
+    font-size: 16px;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 768px) {
+    .navbar .navbar-brand {
+        margin: 10px 0 5px 5px;
+        font-weight: 600;
+    }
+    
+    .navbar .navbar-collapse .navbar-nav {
+        margin-top: 5px;
+    }
+
+    .main-header {
+        min-width: 100%;
+        padding-top: 210px;
+    }
+
+    .main-header .header-content h1 {
+        font-size: 100px;
+        padding-top: 5px;
+    }
+
+    .main-header .header-content p {
+        font-size: 18px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .main-header .btn {
+        margin-top: 50px;
+        margin-bottom: 195px;
+    }
+
+    .intro .section-heading {
+        font-size: 30px;
+    }
+
+    .content .lead {
+        font-size: 21px;
+    }
+
+    .content .btn {
+        margin-left: 0;
+    }
+
+    .content-3 .btn {
+        margin: 0 auto;
+    }
+
+    .main-footer .contact .section-heading {
+        margin-bottom: 20px;
+    }
+
+    .main-footer .contact {
+        padding-bottom: 70px;
+    }
+
+    .main-footer p svg {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .promotion a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main-footer .contact .container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
